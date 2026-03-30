@@ -15,6 +15,7 @@ Each project is designed to be simple, practical, and focused on fundamentals.
 
 - 🧮 [Calculator](./calculator) — Simple CLI calculator
 - ⚖️ [Weight Converter](./weight%20converter) — Unit conversion tool
+- 🌡️[Temprature converter](./Temprature%20converter) — Unit conversion tool
 
 «Each project folder contains its own detailed README with features and usage instructions.»
 
