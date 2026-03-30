@@ -35,28 +35,16 @@ Each project is designed to be simple, practical, and focused on fundamentals.
 
 ---
 
-__📈 Progression__
-
-These projects represent my current level and will improve over time as I learn:
-
-- Loops
-- Functions
-- Dictionaries
-- Error handling
-- GUI development
-
----
-
 🤝 Contributing
 ---
 
 Suggestions and feedback are welcome.
 Feel free to open an issue or submit a pull request.
 
----
+
 ---
 
 
-⭐️ This repository is part of my own Python learning journey — more projects coming soon.
+⭐️ This repository is part of my own Python learning journey — more projects coming soon.💙💙
 ---
 ---
