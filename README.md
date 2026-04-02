@@ -13,9 +13,12 @@ Each project is designed to be simple, practical, and focused on fundamentals.
 
 📂 __Projects__
 
-- 🧮 [Calculator](./calculator) — Simple CLI calculator
-- ⚖️ [Weight Converter](./weight%20converter) — Unit conversion tool
-- 🌡️[Temprature converter](./Temprature%20converter) — Unit conversion tool
+| Projects📚 | Info✨ |
+|----------------------------------------------------------------|---------|
+|[Calculator](./calculator/README.md)                        | CLI calculator🧮|
+|[Weight Converter](./weight%20converter/README.md)          | CLI weight unit converter⚖️|
+|[Temperature converter](./Temprature%20converter/README.md) | CLI Temperature unit converter [V1](./Temprature%20converter/Temprature_converter_V1.py)/[V2](./Temprature%20converter/Temprature_converter_V2.py)🌡️|
+
 
 «Each project folder contains its own detailed README with features and usage instructions.»
 
