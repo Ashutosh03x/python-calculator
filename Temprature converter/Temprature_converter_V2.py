@@ -75,10 +75,12 @@ while True:
 
     print(Fore.GREEN+f"Result: {result:.2f}{target}")
 
-    choice=input(Fore.YELLOW+"\nConvert again? (y/n)?").lower()
+    choice=input(Fore.YELLOW+"\nConvert again? (y/n/c(clear history))?").lower()
     
     if choice=="y":
         continue
+    elif choice=="c":
+        print("\033c",end="")
     else:
         print("Goodbye!👋")
         break
