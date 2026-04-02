@@ -5,6 +5,11 @@ This project converts between different temperature units using clean logic and 
 
 ---
 
+
+## ⚙️Versions
+- [Version 1](./Temprature_converter_V1.py)&rarr; Basic functions/if-elif/Error handling/No Loop
+- [Version 2](./Temprature_converter_V2.py)&rarr; dictionaries/Looped/Improved CLI/ Better error handling and input validation
+
 ## 🚀 Features
 
 - *Convert between:*
@@ -12,48 +17,44 @@ This project converts between different temperature units using clean logic and 
   - Fahrenheit (F)
   - Kelvin (K)
   - Rankine (R)
-- Uses a base unit (Celsius) for accurate conversions
-- Colored terminal output using colorama
-- Basic error handling for invalid inputs
+- Uses a base unit (Celsius) for accuracy
+- input validation and error handling(V2)
+- Repeat conversions without restarting
+- Colored terminal output
+
+## 🛠️ Requirements
+
+- Python 3.x
+- colorama
+
+*Install dependency:*
+-      pip install colorama
 
 ---
-
-## 📸 Example
-
-- __Simple Temperature Converter__
-
- Enter the Temperature: 100
-
-Enter the unit: C
-
-Enter conversion unit: F
-
-*Converted temperature: 212.0 F*
 
 ## 🧠 What I Learned
 
 - Writing and using functions (def)
 - Converting values using a base unit approach
 - Handling user input
-- Using if-elif logic for multiple conditions
+- Using if-elif logic for multiple conditions(V1)
 - Error handling with try-except
 - Improving CLI output with colors
+- Looping for repeated conversions(V2)
+- using Dictionaries
 
 ---
 
 ## ⚠️ Limitations
 
-- Runs only once (no loop yet)
-- Limited to basic temperature units
-- No input validation beyond basic checks
+- Limited to 4 units
+- No GUI
+---
 
-
-
-
-## 📌 Project Level
+__*📌 Project Level*__
 
 Beginner / Novice
 
-
 ---
-##### ⭐ This project is part of my Python learning journey.💙💙
+
+#### ⭐ This project is part of my Python learning journey.💙💙
