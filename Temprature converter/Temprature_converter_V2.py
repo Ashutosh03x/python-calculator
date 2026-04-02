@@ -29,9 +29,10 @@ Target={
 }
 
 def menu():
-    print(Fore.CYAN+"\n"+"="*35)
-    print(Fore.LIGHTMAGENTA_EX+"Simple Temperature Converter")
-    print(Fore.CYAN+"="*35)
+    print(Fore.LIGHTMAGENTA_EX+'''
+▀█▀ █▀▀ █▀▄▀█ █▀█ █▀▀ █▀█ ▄▀█ ▀█▀ █░█ █▀█ █▀▀   █▀▀ █▀█ █▄░█ █░█ █▀▀ █▀█ ▀█▀ █▀▀ █▀█
+░█░ ██▄ █░▀░█ █▀▀ ██▄ █▀▄ █▀█ ░█░ █▄█ █▀▄ ██▄   █▄▄ █▄█ █░▀█ ▀▄▀ ██▄ █▀▄ ░█░ ██▄ █▀▄''')
+    print(Fore.CYAN+"="*85)
     print(Fore.BLUE+"\nValid Temperature Units:")
     print(Fore.CYAN+"-"*35)
 
@@ -46,6 +47,8 @@ def ent_temp(prompt):
             return float(input(Fore.YELLOW+prompt))
         except ValueError:
             print(Fore.RED+"Invalid number!")
+        except Exception:
+            print(Fore.RED+"Error! Unexpected")    
 
 def ent_unit(prompt):
     while True:
@@ -77,7 +80,7 @@ while True:
     if choice=="y":
         continue
     else:
-        print("Goodbye!")
+        print("Goodbye!👋")
         break
 
 
