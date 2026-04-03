@@ -16,7 +16,7 @@ Each project is designed to be simple, practical, and focused on fundamentals.
 | Projects📚 | Info✨ |
 |----------------------------------------------------------------|---------|
 |[Calculator](./calculator/README.md)                        | CLI calculator🧮|
-|[Weight Converter](./weight%20converter/README.md)          | CLI weight unit converter⚖️|
+|[Weight Converter](./weight%20converter/README.md)          | CLI weight unit converter [V1](./weight%20converter/weight_converter1.py)/[V2](./weight%20converter/weight_converter_V2.py) ⚖️|
 |[Temperature converter](./Temprature%20converter/README.md) | CLI Temperature unit converter [V1](./Temprature%20converter/Temprature_converter_V1.py)/[V2](./Temprature%20converter/Temprature_converter_V2.py)🌡️|
 
 
