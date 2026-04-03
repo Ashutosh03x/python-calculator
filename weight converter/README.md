@@ -1,9 +1,13 @@
-# ⚖️ Python Weight Converter (CLI)
+# __⚖️ Python Weight Converter (CLI)__
 
 A simple command-line weight converter built using Python.  
-This project converts between different weight units with clean logic and colored output.
+This project converts between different weight units using clean logic and colored output.
 
 ---
+
+## ⚙️Versions
+- [Version 1](./weight_converter1_V1.py)&rarr; Basic functions/if-elif/Error handling/No Loop
+- [Version 2](./weight_converter_V2.py)&rarr; dictionaries/Looped/Improved CLI/ Better error handling and input validation
 
 ## 🚀 Features
 
@@ -13,23 +17,10 @@ This project converts between different weight units with clean logic and colore
   - Pounds (lb)
   - Metric tonne (t)
   - Milligram (mg)
-- Clean conversion logic using base unit (kg)
+- uses basse unit (kg) for accurate conversions  
 - Colored terminal output using colorama
-- Error handling for invalid input
-
----
-
-## 📸 Example
-
-  __*Simple Weight Converter*__
-
-Enter the weight: 10
-
-Enter the unit: kg
-
-Enter conversion unit: g
-
-*Converted weight: 10000.0000 g*
+- input validation and error handling
+- Repeat conversions without restarting
 
 
 ## 🛠️ Requirements
@@ -44,33 +35,24 @@ Install dependency:
 
 ## 🧠 What I Learned
 
-- Functions (def)
-- Conditional logic
-- Input validation
+- Writing and using Functions (def)
+- Handling Input validation
+- Conditional logic(if-elif)
 - Error handling with try-except
 - CLI UI improvement using colors
-
+- Looping
+- Using dictionaries for cleaner conversion logic
 ---
 
 ## ⚠️ Limitations
 
-- Runs only once (no loop yet)
 - Limited unit support
-
+- No GUI
 ---
-
-## 🔥 Future Improvements
-
-- Add loop (continuous conversion)
-- Add more units
-- Use dictionary-based conversion (optimized logic)
-
----
-
-## 📌 Project Level
+__*📌 Project Level*__
 
 Beginner / Novice
 
 ---
 
-⭐ This is part of my Python learning journey.
+#### ⭐ This project is part of my Python learning journey.💙💙
