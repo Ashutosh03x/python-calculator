@@ -5,60 +5,46 @@ This project demonstrates basic programming concepts like input handling, condit
 
 ---
 
+
+## ⚙️Versions
+- [Version 1](./calculator_V1.py)&rarr; Basic functions/if-elif/Error handling/No Loop
+- [Version 2](./calculator_V2.py)&rarr; dictionaries/Looped/Improved CLI/ Better error handling and input validation
+
 ## 🚀 Features
 
-- ➕ Addition
-- ➖ Subtraction
-- ✖️ Multiplication
-- ➗ Division (with zero-check)
-- Exponential
-- 🧮 Modulus
-- 🎨 Colored output using colorama
-- ⚠️ Basic error handling
-
----
-
-## 📸 Preview
-
-__**Simple Calculator**__
-
-Enter first number: 10
-
-Enter operator (+, -, *, /, %): +
-
-Enter second number: 5
-
-__Result__: 15
-
-
+- __*supports operations*__
+    - Addition(+), Subtraction(-), Multiplication(*), Division(/), Floor division(//), Modulus(%)
+    - chain calculations using previous result
+    - continuous usage with loop (no restart needed)
+    - input validation and error handling
+    - Eval protection  *safety check* (Basic)
+    - Clear (c) and Quit commands (q)
+    - colored terminal output using colorama
+ 
 ## 🛠️ Requirements
 
 - Python 3.x
 - colorama library
 
-- Install dependency:
+- *Install dependency:*
 -     pip install colorama
 
 ## 🧠 What I Learned
 
-- Using if-elif-else for decision making  
-- Handling user input with input()  
-- Type conversion using float()  
-- Error handling with try-except  
-- Improving CLI UX using colors  
-
+- Using if-elif logic [(V1)](./calculator_V1.py)  
+- Looping for continuous execution [(V2)](./calculator_V2.py)  
+- Result chaining
+- Error handling
+- improving CLI UX
 ---
 
 ## ⚠️ Limitations
 
-- Runs only once (no loop yet)
-- Does not store previous results
-- Limited operator support
+- uses eval() (restricted but still not fully safe)
+- Limited basic arithmetic operations
 ---
 ## 📌 Project Level
-Beginner / Novice
-
-This project is part of my learning journey in Python. More advanced projects coming soon 🚀
+Beginner / Early Intermediate
 
 ---
 
