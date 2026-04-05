@@ -74,7 +74,7 @@ while True:
             full_expr=str(result)+expr # after every calculation (output) it stores the result and user can calculate further using that result 
             result=eval(full_expr,{"__bulitins__":None},{})
 
-            print(Fore.YELLOW+f"result: {result}")
+            print(Fore.GREEN+f"result: {result}")
             
     except Exception:
         print(Fore.RED+"Invalid Input")  
