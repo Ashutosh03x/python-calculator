@@ -19,9 +19,10 @@ Each project is designed to be simple, practical, and focused on fundamentals.
 |[Weight Converter](./weight%20converter/README.md)          | CLI weight unit converter [V1](./weight%20converter/weight_converter1.py)/[V2](./weight%20converter/weight_converter_V2.py) ⚖️|
 |[Temperature converter](./Temprature%20converter/README.md) | CLI Temperature unit converter [V1](./Temprature%20converter/Temprature_converter_V1.py)/[V2](./Temprature%20converter/Temprature_converter_V2.py)🌡️|
 |[Compound interest calc](./compound%20interest%20calc/README.md)                                      | CLI compound interest calculator [V1](./compound%20interest%20calc/compound_interest_calc_V1.py)/[V2](./compound%20interest%20calc/compound_interest_calc_V2.py)💵
+|[Japanese hiragana quiz](./Japanese%20kana%20Quiz/README.md)| CLI Hiragana quiz [V1](./Japanese%20kana%20Quiz/Hiragana_quiz.py) 🈶|
 
 
-> Each project folder contains its own detailed README with features and usage instructions.
+> - Each project folder contains its own detailed README with features and usage instructions.
 
 ---
 
