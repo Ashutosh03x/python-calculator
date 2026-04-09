@@ -1,18 +1,23 @@
-# 🈶 Hiragana Quiz (CLI)
+# 🈶 Japanese Kana Quiz (CLI)
 
-A simple command-line Hiragana quiz built using Python.  
-This project helps practice Japanese Hiragana by testing your romaji knowledge with real-time feedback and scoring.
+A simple command-line Japanese Kana quiz built using Python.  
+This project helps practice both **Hiragana** and **Katakana** by testing your romaji knowledge with real-time feedback and scoring.
 
 ---
 
 ## 🚀 Features
 
-- Random Hiragana questions
+- Main menu navigation:
+  - `h` → Hiragana quiz
+  - `k` → Katakana quiz
+  - `q` → Quit program
+- Random Hiragana and Katakana questions
+- Includes dakuten / handakuten characters (e.g., が / ぱ, ガ / パ)
 - Instant feedback (correct / incorrect)
 - Score tracking
 - Accuracy calculation
 - Input validation (prevents empty answers)
-- Option to quit anytime (q)
+- Option to quit quiz anytime (`q` returns to menu)
 - Colored terminal output using colorama
 
 
@@ -32,6 +37,8 @@ This project helps practice Japanese Hiragana by testing your romaji knowledge w
 - Using dictionaries for mapping data  
 - "Random" Module 
 - Loop-based program flow (while True)  
+- Function-based code reuse for multiple quiz modes
+- Building a simple CLI menu system
 - Input handling and validation  
 - Score tracking and accuracy calculation  
 - Improving CLI UX using colors  
